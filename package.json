@@ -1,0 +1,33 @@
+{
+	"name": "doublee-storybook",
+	"version": "0.0.1",
+	"description": "Composed Storybook to showcase some of my JavaScript plugins, components, solutions, and more.",
+	"author": "Leesa Ward <contact@doubleedesign.com.au>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/doubleedesign/doublee-storybook"
+	},
+	"scripts": {
+		"build": "tsc",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
+	"devDependencies": {
+		"@mdx-js/rollup": "^3.1.1",
+		"@storybook/html-vite": "^10.3.5",
+		"@stylistic/eslint-plugin-ts": "^4.4.1",
+		"@typescript-eslint/eslint-plugin": "^8.58.1",
+		"@typescript-eslint/parser": "^8.58.1",
+		"eslint": "^10.2.0",
+		"eslint-plugin-storybook": "^10.3.5",
+		"remark-gfm": "^4.0.1",
+		"storybook": "^10.3.5",
+		"typescript": "^5.5.3"
+	},
+	"private": true,
+	"dependencies": {
+		"@storybook/addon-docs": "^10.3.5",
+		"@storybook/design-system": "^7.15.19",
+		"globals": "^17.5.0"
+	}
+}
