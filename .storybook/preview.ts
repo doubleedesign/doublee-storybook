@@ -1,14 +1,17 @@
-import type { Preview } from '@storybook/html-vite'
+import type { Preview } from '@storybook/html-vite';
+import { themes } from 'storybook/theming';
+import './preview.css';
 
 const preview: Preview = {
-  parameters: {
-    controls: {
-      matchers: {
-       color: /(background|color)$/i,
-       date: /Date$/i,
-      },
-    },
-  },
+	parameters: {
+		docs: {
+			theme: {
+				...themes.light,
+				fontBase: "'Neue Montreal', 'Neue Helvetica', 'Helvetica', Arial, sans-serif",
+				fontCode: "'Fira Code', ui-monospace",
+			},
+		}
+	},
 };
 
 export default preview;

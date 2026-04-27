@@ -1,0 +1,14 @@
+@import 'https://doublee.dev/fonts/fonts.css';
+#storybook-explorer-tree #tycho_components {
+  display: none;
+}
+#storybook-explorer-tree button {
+  font-size: 0.95rem;
+  font-weight: 530;
+}
+#storybook-explorer-tree .sidebar-item button, #storybook-explorer-tree .sidebar-item a {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=manager.css.map */

@@ -1,0 +1,9 @@
+@import 'https://doublee.dev/fonts/fonts.css';
+.sbdocs-content h1, .sbdocs-content h2 {
+  font-family: "Copernicus New Cond", Georgia, serif;
+}
+.sbdocs-content p, .sbdocs-content th, .sbdocs-content td, .sbdocs-content li {
+  font-size: 0.95rem;
+}
+
+/*# sourceMappingURL=preview.css.map */

@@ -1,0 +1,20 @@
+@import 'https://doublee.dev/fonts/fonts.css';
+
+#storybook-explorer-tree {
+
+	#tycho_components {
+		display: none;
+	}
+
+	button {
+		font-size: 0.95rem;
+		font-weight: 530;
+	}
+
+	.sidebar-item {
+		button, a {
+			font-size: 0.95rem;
+			font-weight: 400;
+		}
+	}
+}

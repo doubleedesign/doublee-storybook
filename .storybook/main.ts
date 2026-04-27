@@ -28,6 +28,10 @@ const config: StorybookConfig = {
 			title: 'Storybook Decorators',
 			url: 'https://doubleedesign.github.io/storybook-assorted-decorators/',
 		},
+		'tycho': {
+			title: "Tycho’s Treasury (Vue UI library)",
+			url: 'https://doubleedesign.github.io/tychos-treasury',
+		},
 		// Don't show stories from the Storybook Design System in the sidebar
 		'@storybook/design-system': { disable: true }
 	},
