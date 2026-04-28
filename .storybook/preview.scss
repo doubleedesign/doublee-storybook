@@ -1,11 +1,2 @@
-@import 'https://doublee.dev/fonts/fonts.css';
+@use '../node_modules/@doubleedesign/doublee-site-style/doublee-storybook-preview.scss';
 
-.sbdocs-content {
-	h1, h2 {
-		font-family: 'Copernicus New Cond', Georgia, serif;
-	}
-
-	p, th, td, li {
-		font-size: 0.95rem;
-	}
-}

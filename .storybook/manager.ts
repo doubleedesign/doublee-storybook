@@ -1,15 +1,15 @@
 import { addons } from 'storybook/manager-api';
 import { themes } from 'storybook/theming';
+import { doubleeTheme } from '@doubleedesign/doublee-site-style';
 import './manager.css';
 
+const mergedTheme = {
+	...themes.light,
+	...doubleeTheme
+};
+
 addons.setConfig({
-	theme: {
-		...themes.light,
-		brandTitle: '',
-		brandImage: null, // TODO: Create logo
-		fontBase: "'Neue Montreal', 'Neue Helvetica', 'Helvetica', Arial, sans-serif",
-		fontCode: "'Fira Code', ui-monospace",
-	},
+	theme: mergedTheme,
 	sidebar: {
 		filters: {
 			patterns: (item) => {

@@ -1,20 +1,8 @@
-@import 'https://doublee.dev/fonts/fonts.css';
+@use '../node_modules/@doubleedesign/doublee-site-style/doublee-storybook-manager.scss';
 
 #storybook-explorer-tree {
 
 	#tycho_components {
 		display: none;
-	}
-
-	button {
-		font-size: 0.95rem;
-		font-weight: 530;
-	}
-
-	.sidebar-item {
-		button, a {
-			font-size: 0.95rem;
-			font-weight: 400;
-		}
 	}
 }
