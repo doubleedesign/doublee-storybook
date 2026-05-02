@@ -29,6 +29,6 @@
 		"@storybook/addon-docs": "^10.3.5",
 		"@storybook/design-system": "^7.15.19",
 		"globals": "^17.5.0",
-		"@doubleedesign/doublee-site-style": "github:doubleedesign/doublee-site-style"
+		"@doubleedesign/doublee-site-style": "github:doubleedesign/doublee-site-style#master"
 	}
 }

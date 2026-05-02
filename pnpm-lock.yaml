@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@doubleedesign/doublee-site-style':
-        specifier: github:doubleedesign/doublee-site-style
-        version: https://codeload.github.com/doubleedesign/doublee-site-style/tar.gz/cc77aaf2b91e20acb884b8eb25d74749b283f983
+        specifier: github:doubleedesign/doublee-site-style#master
+        version: https://codeload.github.com/doubleedesign/doublee-site-style/tar.gz/0098d38b667d390e6f88456e0771454fb36b798f
       '@storybook/addon-docs':
         specifier: ^10.3.5
         version: 10.3.5(@types/react@19.2.14)(esbuild@0.27.7)(rollup@4.60.1)(storybook@10.3.5(@testing-library/dom@10.4.1)(prettier@2.8.8)(react-dom@19.2.5(react@19.2.5))(react@19.2.5))(vite@8.0.8(@types/node@25.6.0)(esbuild@0.27.7))
@@ -82,8 +82,11 @@ packages:
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
 
-  '@doubleedesign/doublee-site-style@https://codeload.github.com/doubleedesign/doublee-site-style/tar.gz/cc77aaf2b91e20acb884b8eb25d74749b283f983':
-    resolution: {tarball: https://codeload.github.com/doubleedesign/doublee-site-style/tar.gz/cc77aaf2b91e20acb884b8eb25d74749b283f983}
+  '@doubleedesign/clientside-typographers-quotes@0.0.1':
+    resolution: {integrity: sha512-Ubeb7qoJ/+BVoR3mJa/Fvbow7eMsYfZ8np4OfoYY+dJwD43xuk1UfMLpZ09IsplUoKbhJCb3e3mfHUGMA1xyKg==}
+
+  '@doubleedesign/doublee-site-style@https://codeload.github.com/doubleedesign/doublee-site-style/tar.gz/0098d38b667d390e6f88456e0771454fb36b798f':
+    resolution: {tarball: https://codeload.github.com/doubleedesign/doublee-site-style/tar.gz/0098d38b667d390e6f88456e0771454fb36b798f}
     version: 1.0.0
 
   '@emnapi/core@1.9.2':
@@ -2153,7 +2156,11 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@doubleedesign/doublee-site-style@https://codeload.github.com/doubleedesign/doublee-site-style/tar.gz/cc77aaf2b91e20acb884b8eb25d74749b283f983': {}
+  '@doubleedesign/clientside-typographers-quotes@0.0.1': {}
+
+  '@doubleedesign/doublee-site-style@https://codeload.github.com/doubleedesign/doublee-site-style/tar.gz/0098d38b667d390e6f88456e0771454fb36b798f':
+    dependencies:
+      '@doubleedesign/clientside-typographers-quotes': 0.0.1
 
   '@emnapi/core@1.9.2':
     dependencies:
