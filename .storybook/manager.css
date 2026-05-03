@@ -1,6 +1,16 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600;700&display=swap");
+@font-face {
+  font-family: "Copernicus New Cond";
+  src: url("https://doublee.dev/fonts/CopernicusNewCond-090.woff2") format("woff2");
+  font-weight: 300 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Copernicus New Cond";
+  src: url("https://doublee.dev/fonts/CopernicusNewCond-110.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
 @font-face {
   font-family: "Copernicus New Cond";
   src: url("https://doublee.dev/fonts/CopernicusNewCond-130.woff2") format("woff2");
@@ -8,50 +18,60 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Copernicus New Cond";
-  src: url("https://doublee.dev/fonts/CopernicusNewCond-090.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
   font-family: "Neue Montreal";
+  font-style: normal;
+  font-feature-settings: "ss01";
+  /*! Custom adjustments to suit the combination of fonts */
+  ascent-override: 85%;
   src: url("https://doublee.dev/fonts/PPNeueMontreal-Light.woff2") format("woff2");
   font-weight: 300;
-  font-style: normal;
-  /*! Custom adjustments to suit the combination of fonts */
-  ascent-override: 85%;
 }
 @font-face {
   font-family: "Neue Montreal";
+  font-style: normal;
+  font-feature-settings: "ss01";
+  /*! Custom adjustments to suit the combination of fonts */
+  ascent-override: 85%;
   src: url("https://doublee.dev/fonts/PPNeueMontreal-Book.woff2") format("woff2");
   font-weight: 400;
-  font-style: normal;
-  /*! Custom adjustments to suit the combination of fonts */
-  ascent-override: 85%;
 }
 @font-face {
   font-family: "Neue Montreal";
+  font-style: normal;
+  font-feature-settings: "ss01";
+  /*! Custom adjustments to suit the combination of fonts */
+  ascent-override: 85%;
   src: url("https://doublee.dev/fonts/PPNeueMontreal-Italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
-  /*! Custom adjustments to suit the combination of fonts */
-  ascent-override: 85%;
 }
 @font-face {
   font-family: "Neue Montreal";
+  font-style: normal;
+  font-feature-settings: "ss01";
+  /*! Custom adjustments to suit the combination of fonts */
+  ascent-override: 85%;
   src: url("https://doublee.dev/fonts/PPNeueMontreal-Medium.woff2") format("woff2");
   font-weight: 500;
-  font-style: normal;
-  /*! Custom adjustments to suit the combination of fonts */
-  ascent-override: 85%;
 }
 @font-face {
   font-family: "Neue Montreal";
-  src: url("https://doublee.dev/fonts/PPNeueMontreal-SemiBold.woff2") format("woff2");
-  font-weight: 600;
   font-style: normal;
+  font-feature-settings: "ss01";
   /*! Custom adjustments to suit the combination of fonts */
   ascent-override: 85%;
+  src: url("https://doublee.dev/fonts/PPNeueMontreal-SemiBold.woff2") format("woff2");
+  font-weight: 600 700;
+}
+@font-face {
+  font-family: "Fira Code";
+  font-weight: 300;
+  src: url("https://doublee.dev/fonts/FiraCode-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Fira Code";
+  font-weight: 400;
+  src: url("https://doublee.dev/fonts/FiraCode-Regular.woff2") format("woff2");
 }
 /**
  * @license
@@ -75,54 +95,44 @@
  * © 2026 MyFonts Inc. */
 @font-face {
   font-family: "Berkeley Old Style";
-  src: url("https://doublee.dev/fonts/BerkeleyOldStyleBook.woff2") format("woff2");
+  /*! Custom adjustments to suit the combination of fonts */
+  size-adjust: 115%;
+  src: local("BerkeleyPro-Book"), url("https://doublee.dev/fonts/BerkeleyOldStyleBook.woff2") format("woff2");
+  font-weight: 300 400;
   font-style: normal;
-  font-weight: 400;
+}
+@font-face {
+  font-family: "Berkeley Old Style";
   /*! Custom adjustments to suit the combination of fonts */
   size-adjust: 115%;
+  src: local("BerkeleyPro-BookItalic"), url("https://doublee.dev/fonts/BerkeleyOldStyleBookItalic.woff2") format("woff2");
+  font-weight: 300 400;
+  font-style: italic;
 }
 @media screen and (min-resolution: 150dpi) {
   @font-face {
     font-family: "Berkeley Old Style";
-    src: url("https://doublee.dev/fonts/BerkeleyOldStyleMedium.woff2") format("woff2");
+    /*! Custom adjustments to suit the combination of fonts */
+    size-adjust: 115%;
+    src: local("BerkeleyPro-Medium"), url("https://doublee.dev/fonts/BerkeleyOldStyleMedium.woff2") format("woff2");
+    font-weight: 400;
     font-style: normal;
-    font-weight: 400;
-    /*! Custom adjustments to suit the combination of fonts */
-    size-adjust: 115%;
   }
-}
-@font-face {
-  font-family: "Berkeley Old Style";
-  font-style: italic;
-  font-weight: 400;
-  src: url("https://doublee.dev/fonts/BerkeleyOldStyleBookItalic.woff2") format("woff2");
-  /*! Custom adjustments to suit the combination of fonts */
-  size-adjust: 115%;
-}
-@media screen and (min-resolution: 150dpi) {
   @font-face {
     font-family: "Berkeley Old Style";
-    font-style: italic;
-    font-weight: 400;
-    src: url("https://doublee.dev/fonts/BerkeleyOldStyleMediumItalic.woff2") format("woff2");
     /*! Custom adjustments to suit the combination of fonts */
     size-adjust: 115%;
+    src: local("BerkeleyPro-MediumItalic"), url("https://doublee.dev/fonts/BerkeleyOldStyleMediumItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
   }
 }
 @font-face {
   font-family: "Berkeley Old Style";
-  font-style: italic;
-  font-weight: 400;
-  src: url("https://doublee.dev/fonts/BerkeleyOldStyleItalic.woff2") format("woff2");
   /*! Custom adjustments to suit the combination of fonts */
   size-adjust: 115%;
-}
-@font-face {
-  font-family: "Berkeley Old Style";
-  font-weight: 700;
-  src: url("https://doublee.dev/fonts/BerkeleyOldStyleBold.woff2") format("woff2");
-  /*! Custom adjustments to suit the combination of fonts */
-  size-adjust: 110%;
+  src: local("BerkeleyPro-Bold"), url("https://doublee.dev/fonts/BerkeleyOldStyleBold.woff2") format("woff2");
+  font-weight: 600 700;
 }
 @layer doublee-tokens {
   :root {
@@ -136,9 +146,11 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
-    --line-height-base: 1.45;
-    --line-height-headings: 1.2;
     --typescale: 1.2;
+    --line-height-base: 1.6;
+    --line-height-headings: 1.2;
+    --letter-spacing-body: -0.01em;
+    --letter-spacing-tight: -0.02em;
   }
   @media (min-width: 768px) {
     :root {
@@ -146,15 +158,23 @@
     }
   }
   :root {
-    --font-size-sm: 0.9rem;
     --font-size-base: 1rem;
+  }
+  @media (min-width: 1024px) {
+    :root {
+      --font-size-base: calc(17 / 16 * 100%);
+    }
+  }
+  :root {
+    --font-size-sm: 0.9rem;
+    --font-size-body: 1rem;
     --font-size-md: calc(1rem * var(--typescale));
     --font-size-lg: calc(calc(1rem * var(--typescale)) * var(--typescale));
     --font-size-xl: calc(calc(calc(1rem * var(--typescale)) * var(--typescale)) * var(--typescale));
     --font-size-xxl: calc(calc(calc(calc(1rem * var(--typescale)) * var(--typescale)) * var(--typescale)) * var(--typescale));
     --font-size-display: calc(calc(calc(calc(calc(calc(1rem * var(--typescale)) * var(--typescale)) * var(--typescale)) * var(--typescale)) * var(--typescale)) * var(--typescale));
     --font-sm: var(--font-weight-normal) var(--font-size-sm) var(--font-family-labels);
-    --font-base: var(--font-weight-normal) var(--font-size-base) var(--font-family-body);
+    --font-body: var(--font-weight-normal) var(--font-size-body) var(--font-family-body);
     --font-md: var(--font-weight-medium) var(--font-size-md)/var(--line-height-headings) var(--font-family-accent);
     --font-lg: var(--font-weight-semibold) var(--font-size-lg)/var(--line-height-headings) var(--font-family-headings);
     --font-xl: var(--font-weight-semibold) var(--font-size-xl)/var(--line-height-headings) var(--font-family-headings);
@@ -169,21 +189,20 @@
     --spacing-lg: calc(calc(1rem * var(--typescale)) * var(--typescale));
     --spacing-xl: calc(calc(calc(calc(1rem * var(--typescale)) * var(--typescale)) * var(--typescale)) * var(--typescale));
     --spacing-xxl: calc(calc(calc(calc(calc(calc(1rem * var(--typescale)) * var(--typescale)) * var(--typescale)) * var(--typescale)) * var(--typescale)) * var(--typescale));
-    --color-primary: #845ec2;
-    --color-secondary: #0abfa0;
-    --color-accent: #c92c5a;
+    --border-radius-sm: var(--spacing-xs);
+    --border-radius-md: var(--spacing-sm);
+    --border-radius-round: 100px;
+    --color-primary: #502595;
+    --color-secondary: #845ec2;
+    --color-accent: #b01b87;
     --color-info: #24a8e1;
     --color-warning: #ffc75f;
     --color-success: #0abfa0;
     --color-error: #ff775f;
-    --color-light: color-mix(in srgb, var(--color-primary) 15%, white);
+    --color-light: ghostwhite;
     --color-dark: color-mix(in srgb, var(--color-primary) 40%, black);
     --color-white: #ffffff;
     --color-body-text: #181825;
-    --color-primary-muted: oklch(from color-mix(in srgb, var(--color-primary) 85%, gray 15%) calc(l + 0.15) calc(c * 0.5) calc(h));
-    --color-secondary-muted: oklch(from color-mix(in srgb, var(--color-secondary) 85%, gray 15%) calc(l + 0.15) calc(c * 0.5) calc(h));
-    --color-light-muted: oklch(from color-mix(in srgb, var(--color-light) 85%, gray 15%) calc(l + 0.07) calc(c * 0.6) calc(h));
-    --color-dark-muted: oklch(from color-mix(in srgb, var(--color-dark) 85%, gray 15%) calc(l + 0.07) calc(c * 0.6) calc(h));
     --color-body-text-muted: oklch(from color-mix(in srgb, var(--color-body-text) 85%, gray 15%) calc(l + 0.35) calc(c * 0.8) calc(h));
   }
 }
@@ -535,13 +554,43 @@
   font-family: "Fira Code", monospace !important;
 }
 
+.sidebar-header img {
+  max-height: 40px;
+}
+
 #storybook-explorer-tree button {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-medium);
 }
+#storybook-explorer-tree .sidebar-subheading button {
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: inherit;
+  text-transform: none;
+  font-size: var(--font-size-body);
+}
 #storybook-explorer-tree .sidebar-item button, #storybook-explorer-tree .sidebar-item a {
   font-size: var(--font-size-sm);
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: all 0.2s ease-in-out;
+  line-height: 1.25;
+}
+#storybook-explorer-tree .sidebar-item button:hover, #storybook-explorer-tree .sidebar-item button:focus, #storybook-explorer-tree .sidebar-item button:active, #storybook-explorer-tree .sidebar-item a:hover, #storybook-explorer-tree .sidebar-item a:focus, #storybook-explorer-tree .sidebar-item a:active {
+  text-decoration-color: currentColor;
+  background: rgb(from var(--color-primary) r g b/0.15);
+}
+#storybook-explorer-tree .sidebar-item button[aria-label="Open context menu"] {
+  display: none;
+}
+#storybook-explorer-tree .sidebar-item a div:has(svg) {
+  margin-top: 1px;
+}
+
+#storybook-panel-root .docblock-argstable-body td:has(button) {
+  letter-spacing: unset;
+  text-transform: none;
+  font-size: inherit;
 }
 
 #storybook-explorer-tree #tycho_components {
